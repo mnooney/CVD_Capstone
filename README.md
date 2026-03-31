@@ -19,10 +19,10 @@ Source: Heart-UCI-Dataset https://github.com/sharmaroshan/Heart-UCI-Dataset/blob
 Records: 303 patients | Features: 13 clinical and diagnostic variables | Target: Binary (0 = No CVD, 1 = CVD Present)
 
 Planned Methods:
-Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction
+Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction, if needed
 Supervised Learning (Baseline): Logistic Regression
 Supervised Learning (Tunable): Random Forest, XGBoost
-Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, ROC-AUC
+Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, ROC-AUC, Decision Curve Analysis, model comparision using Cost-Sensitive Learning
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
 Project Status:
