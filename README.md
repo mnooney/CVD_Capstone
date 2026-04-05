@@ -1,6 +1,6 @@
 This project is submitted in partial fulfillment of the MS in Data Science Capstone requirement at Merrimack College, North Andover, MA.  It is also intended as a professional portfolio piece aligned with clinical AI validation workflows.
 
-Predicting Cardiovascular Disease Using Clinical Features: A Machine Learning Approach
+Beyond Accuracy: A Clinical Validation Approach to Cardiovascular Disease Prediction Using Machine Learning
 
 Cardiovascular disease is the leading cause of death globally. While machine learning models are increasingly used in clinical decision-support tools, they are often evaluated primarily on accuracy. This project simulates how clinical AI tools are validated in real-world healthcare workflows, with a focus on the trade-off between sensitivity and specificity and the clinical implications of false negatives versus false positives in cardiovascular disease prediction.
 
