@@ -15,7 +15,7 @@ A tuned ensemble model (Random Forest or XGBoost) optimized for sensitivity will
 
 Dataset:
 UCI Heart Disease Dataset
-Source: Heart-UCI-Dataset https://github.com/sharmaroshan/Heart-UCI-Dataset/blob/master/heart.csv
+Source: Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 Records: 303 patients | Features: 13 clinical and diagnostic variables | Target: Binary (0 = No CVD, 1 = CVD Present)
 
 Planned Methods:
@@ -26,4 +26,4 @@ Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-S
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
 Project Status:
-In Progress | Week 3: Data Acquisition & Exploration
+In Progress | Week 4: Data Pre-Processing and Feature Engineering
