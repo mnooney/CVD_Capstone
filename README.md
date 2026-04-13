@@ -18,23 +18,30 @@ UCI Heart Disease Dataset
 Source: Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 Records: 303 patients | Features: 13 clinical and diagnostic variables | Target: Binary (0 = No CVD, 1 = CVD Present)
 
+
 Pre-Processing and Feature Engineering Methods Summary:
-st_severity feature engineered from oldpeak and slope
 
-Box-Cox transformation applied to cholesterol
+  *st_severity feature engineered from oldpeak and slope
 
-SMOTE explored for mild classs imabalance
+  *Box-Cox transformation applied to cholesterol
 
-PCA assessed for dimensionality reduction
+  *SMOTE explored for mild classs imabalance
+
+  *PCA assessed for dimensionality reduction
+  
 
 Planned Model and Evaluatrion Methods:
-Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction, if needed
 
-Supervised Learning (Baseline): Logistic Regression with and without SMOTE
+  *Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction, if needed
 
-Supervised Learning (Tunable): Random Forest, XGBoost with and without SMOTE
+  *Supervised Learning (Baseline): Logistic Regression with and without SMOTE
 
-Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, ROC-AUC, Decision Curve Analysis, model comparision using Cost-Sensitive Learning
+  *Supervised Learning (Tunable): Random Forest, XGBoost with and without SMOTE
+  
+
+Evaluation Metrics: 
+
+  *Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, ROC-AUC, Decision Curve Analysis, model comparision using Cost-Sensitive Learning
 
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
