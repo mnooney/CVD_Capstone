@@ -20,9 +20,13 @@ Records: 303 patients | Features: 13 clinical and diagnostic variables | Target:
 
 Planned Methods:
 Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction, if needed
-Supervised Learning (Baseline): Logistic Regression
-Supervised Learning (Tunable): Random Forest, XGBoost
+
+Supervised Learning (Baseline): Logistic Regression with and without SMOTE
+
+Supervised Learning (Tunable): Random Forest, XGBoost with and without SMOTE
+
 Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-Score, ROC-AUC, Decision Curve Analysis, model comparision using Cost-Sensitive Learning
+
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
 Project Status:
