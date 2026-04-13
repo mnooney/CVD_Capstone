@@ -30,4 +30,4 @@ Evaluation Metrics: Accuracy, Precision, Recall (Sensitivity), Specificity, F1-S
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
 Project Status:
-In Progress | Week 4: Data Pre-Processing and Feature Engineering
+In Progress | Week 5: Initial Models
