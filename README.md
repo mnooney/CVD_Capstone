@@ -34,7 +34,7 @@ Planned Model and Evaluatrion Methods:
 
   *Unsupervised Learning: Principal Component Analysis (PCA) for dimensionality reduction, if needed
 
-  *Supervised Learning (Baseline): Logistic Regression with and without SMOTE
+  *Supervised Learning (Baseline): Logistic Regression with and without SMOTE + CSL
 
   *Supervised Learning (Tunable): Random Forest, XGBoost with and without SMOTE
   
