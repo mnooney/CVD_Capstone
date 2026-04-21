@@ -46,4 +46,4 @@ Evaluation Metrics:
 Clinical Focus: Threshold analysis and sensitivity/specificity trade-off interpretation
 
 Project Status:
-In Progress | Week 5: Initial Models
+In Progress | Week 6: Hyperparameter Tuning and Model Evaluation Report
