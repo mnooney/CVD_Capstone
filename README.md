@@ -35,7 +35,6 @@ Can machine learning models trained on structured clinical features accurately p
 * **Records:** 297 patients (after cleaning)
 * **Features:** 16 (after preprocessing and feature engineering)
 * **Target:** Binary — 0 = No CVD, 1 = CVD Present
-* 
 
 ## Data Access via API
 
