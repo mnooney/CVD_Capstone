@@ -134,8 +134,7 @@ To reproduce this analysis:
 2. Install required packages: `pip install -r requirements.txt`
 3. Run notebooks in order — Week3 through Week6
 4. Data files are available in /data folder or via UCI API (see above)
-5. Saved model files (.pkl) are available in /data folder — load with joblib
-6. 
+5. Saved model files (.pkl) are available in /data folder — load with joblib 
 
 ## Project Status
 
