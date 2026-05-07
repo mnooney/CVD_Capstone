@@ -35,7 +35,6 @@ Can machine learning models trained on structured clinical features accurately p
 * **Records:** 297 patients (after cleaning)
 * **Features:** 16 (after preprocessing and feature engineering)
 * **Target:** Binary — 0 = No CVD, 1 = CVD Present
-* 
 
 ## Data Access via API
 
@@ -134,8 +133,7 @@ To reproduce this analysis:
 2. Install required packages: `pip install -r requirements.txt`
 3. Run notebooks in order — Week3 through Week6
 4. Data files are available in /data folder or via UCI API (see above)
-5. Saved model files (.pkl) are available in /data folder — load with joblib
-6. 
+5. Saved model files (.pkl) are available in /data folder — load with joblib 
 
 ## Project Status
 
